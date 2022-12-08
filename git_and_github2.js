@@ -22,6 +22,18 @@
 
     git branch                       (used to see present staying branch name and others branch name. which created)
     git branch branchName            (used to create a branch. And will contain all file of main branch)
+                                        Step of git branch branchName command:
+                                        1. at first, have to create a branch
+                                            example: command- git branch comment
+                                        1. after creating a branch, have to checkout in created branch.
+                                            example: command-  git checkout comment 
+                                        2. then have to work in working directory.
+                                        3. after finishing work of working directory, have to add in staging area
+                                            example: command- git add fileName
+                                        4. have to commit to staging file/files
+                                        5. have to push to committed file/files, in created branch.
+                                            example: command- git push -u origin comment
+
     git checkout branchName          (used to entry in specific a branch. which branch name will define.)
     git push -u origin branchName    (used to push in created specific branch. which branch name will define.)
     git merge branchName             (used to add completed version from another branch(after finishing another branch version working) in main branch)
