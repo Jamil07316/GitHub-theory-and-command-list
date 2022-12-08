@@ -24,7 +24,7 @@
     git branch branchName            (used to create a branch. And will contain all file of main branch)
     git checkout branchName          (used to entry in specific a branch. which branch name will define.)
     git push -u origin branchName    (used to push in created specific branch. which branch name will define.)
-    git merge branchName             (used to add completed version of another branch(after finishing another branch version working) in main branch)
+    git merge branchName             (used to add completed version from another branch(after finishing another branch version working) in main branch)
                                         Step of git merge command:
                                             1. when will command git merge, then have to checkout in main branch.
                                             2. git merge branchName (branchName will be, from which branch, will add version in main branch)
